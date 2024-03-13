@@ -1,0 +1,401 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: "opensans";
+    src: url(OpenSans-VariableFont_wdth\,wght.ttf);
+}
+@font-face {
+    font-family: "robotor";
+    src: url(Roboto-Regular.ttf);
+}
+@font-face {
+    font-family: "robotol";
+    src: url(Roboto-Light.ttf);
+}
+
+button{
+    cursor: pointer;
+}
+/*first slide*/
+header{
+    background-image: url(background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+nav{
+    max-width: 1320px;
+    height: 59px;
+    margin-left: 143px;
+    display: flex;
+    align-items: center;
+}
+svg{
+    margin-inline: auto;
+}
+.account{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    right: 180px;
+}
+.shopping{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    right: 90px;
+}
+.shoping, .acctext{
+    font-family: "robotor";
+}
+.line{
+    height: 1px;
+    width: 1250px;
+    background-color: #E3E3E3;
+    position: absolute;
+    top: 50px;
+}
+.menu{
+    display: flex;
+    list-style: none;
+    column-gap: 48px;
+    margin-left: 101px;
+}
+.list{
+    font-family: "opensans";
+}
+.home{
+    display: flex;
+    margin-left: 155px;
+    margin-top: 43px;
+    column-gap: 45px;
+    align-items: center;
+}
+.home h1{
+    font-family: "robotol";
+    font-weight: 300;
+    line-height: 55px;
+    font-size: 74px;
+    margin-bottom: 38px;
+}
+.home p{
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 55px;
+    font-family: "robotol";
+}
+.home-image img{
+    width: 412px;
+    height: 500px;
+}
+.details button{
+    width: 223px;
+    height: 72px;
+    color: White;
+    background-color: #1E2832;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 37px;
+    font-size: 29px;
+    padding-right: 10px;
+}
+/* end first slide*/
+
+/*second slide*/
+.logoimages img{
+    margin-top: 42px;
+}
+.logoimages{
+    margin-top: 42px;
+    display: flex ;
+    justify-content: space-evenly;
+    column-gap: 0px;
+    margin-inline: auto;
+}
+
+/*images*/
+.images{
+    margin-top: 45px;
+    margin-left: 112px;
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+.text_and_image{
+    display: flex;
+    align-items: center;
+}
+
+.photo2{
+    margin-left: 10px;
+}
+.bottom_images{
+    margin-top: 10px;
+}
+
+/* end images*/
+
+/*end second slide*/
+
+/*start third slide*/
+.third_slide{
+    margin-top: 69px;
+}
+.third_slide h1{
+    font-family: "robotol";
+    text-align: center;
+}
+.list_button{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 23px;
+    font-family: "opensans";
+}
+.list_button .list{
+    color: #9F9F9F;
+}
+.list_button button{
+    width: 92px;
+    height: 32px;
+    
+    background-color: #1E2832;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    font-family: "opensans";
+    margin-right: 45px;
+}
+
+.first_line{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 22px;
+    justify-content: space-evenly;
+    column-gap: 4px;
+}
+.price{
+    display: flex;
+    align-items: center;
+    font-family: "opensans";
+    margin-top: 9px;
+}
+.price .dollar, .price .new_price{
+    margin-left: 210px;
+}
+
+.price .first_price{
+    position: absolute;
+    left: 1310px;
+    color: #8F8F8F;
+}
+.first_price1{
+    position: absolute;
+    left: 580px;
+    color: #8F8F8F;
+}
+.price .new_price{
+    color: #FF6F61;
+}
+.box p{
+    font-family: "opensans";
+}
+
+.price .product{
+    color: #9F9F9F;
+}
+.second_line{
+    margin-top: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+/*end third slide*/
+
+/*start fourth slide*/
+.fourth_slide .banner{
+    width: 100%;
+    margin-top: 72px;
+}
+
+.fourth_slide .zara{
+    position: absolute;
+    left: 790px;
+    top: 2825px;
+}
+
+.fourth_slide p{
+    position: absolute;
+    color: #FFFFFF;
+    top: 2930px;
+    left: 790px;
+    font-family: "robotol";
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 40px;
+}
+.fourth_slide button{
+    width: 237px;
+    height: 72px;
+    background-color: #FFFFFF;
+    position: absolute;
+    top: 3121px;
+    left: 790px;
+    font-size: 29px;
+    font-weight: 400;
+    font-family: "robotol";
+}
+
+
+/*end fourth slide*/
+
+/*start fifth slide*/
+.fifth_slide{
+    margin-top: 70px;
+}
+.fifth_slide h1{
+    font-family: "robotor";
+    text-align: center;
+    margin-bottom: 22px;
+    font-weight: 500;
+    font-size: 50px;
+}
+.first_price2{
+    position: absolute;
+    left: 945px;
+    color: #8F8F8F;
+}
+.first_price3{
+    position: absolute;
+    left: 1300px;
+    color: #8F8F8F;
+}
+
+/*end fifth slide*/
+
+/*start sixth slide*/
+.instagram_background{
+    width: 100%;
+    margin-top: 75px;
+    height: 600px;
+}
+.sixth_slide h1{
+    position: absolute;
+    font-family: "robotor";
+}
+.sixth_slide h1{
+    top: 4049px;
+    left: 250px;
+}
+
+.sixthslide_images{
+    display: block;
+    flex-direction: column;
+    flex-wrap: wrap;
+    grid-auto-flow: row;
+    position: absolute;
+    top: 4134px;
+    left: 145px;
+}
+.sixthslide_images .images{
+    display: inline;
+    margin: 0;
+    float: none;
+}
+h2{
+    position: absolute;
+    font-family: "robotor";
+    top: 4382px;
+    left: 450px;
+    font-size: 50px;
+    font-weight: 500;
+    line-height: 58.59px;
+}
+.inputs{
+    position: absolute;
+    top: 4487px;
+    left: 410px;
+}
+input{
+    border: none;
+    border-bottom: 2px solid #000000;
+    background-color: #f3f4f4;
+}
+.email{
+    width: 643px;
+    font-family: "robotol";
+}
+.submit{
+    font-family: "opensans";
+}
+/*end sixth slide*/
+
+/*last slide*/
+.last_slide{
+    margin-top: 70px;
+    font-family: "opensans";
+}
+.abc{
+    display: flex;
+}
+.last_list{
+   list-style: none;
+}
+.last_list li{
+    margin-top: 19px;
+}
+.logo_row{
+    margin-left: 72px;
+}
+.rows{
+    display: flex;
+    column-gap: 139px;
+    margin-left: 27px;
+}
+.rows p{
+    margin-left: 35px;
+}
+.logo_row p{
+   color: #6b7278;
+   font-size: 16px;
+   font-weight: 400;
+}
+.coral{
+    margin-bottom: 19px;
+}
+.photos{
+    margin-top: 18px;
+}
+.rows p{
+    font-weight: 600;
+}
+.blue_line{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 52px;
+    background-color: #1E2832;
+    color: #FFFFFF;
+    height: 52px;
+    padding-left: 102px;
+    padding-right: 102px;
+}
+
+.blue_line button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+    background-color: #1E2832;
+}
